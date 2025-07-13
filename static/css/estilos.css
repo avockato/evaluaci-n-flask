@@ -1,0 +1,42 @@
+        body
+        {
+            font-family: sans-serif;
+            background: white;
+            margin: auto;
+            padding: 100px;
+        }
+        .container
+        {
+            max-width: 150px;
+            margin: auto;
+            padding: 80px;
+            background: white;
+            border: 1px double blue;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .button
+        {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            text-align: center;
+            background: blue;
+            color: white;
+            border: 10px;
+            padding: 10px;
+            border-radius: 15px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .h2
+        {
+            font-size: 15px;
+            margin: auto;
+        }
+        .form
+        {
+            margin-bottom: 15px;
+        }

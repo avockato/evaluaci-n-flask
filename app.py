@@ -17,7 +17,7 @@ def ejercicio1():
         nota3 = float(request.form['nota3'])
         asistencia = int(request.form['asistencia'])
         promedio = (nota1 + nota2 + nota3) / 3
-        estado = "APROBADO" if promedio >4 and asistencia >= 50 else "REPROBADO"
+        estado = "APROBADO" if promedio >= 4 and asistencia >= 75 else "REPROBADO"
 
         resultado = f'Su promedio es: {promedio:.1f} y está {estado}'
     return render_template('ejercicio1.html', resultado=resultado)
